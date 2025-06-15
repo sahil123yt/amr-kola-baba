@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Medicine Shop</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>HealthyLife Pharmacy</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Medicines</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Your Health, Our Priority</h2>
+    <p>Order genuine medicines online. Fast delivery. Trusted pharmacy.</p>
+    <button>Shop Now</button>
+  </section>
+
+  <section class="products">
+    <h2>Featured Medicines</h2>
+    <div class="product-list">
+      <div class="product">
+        <img src="https://via.placeholder.com/150" alt="Paracetamol">
+        <h3>Paracetamol</h3>
+        <p>₹25</p>
+      </div>
+      <div class="product">
+        <img src="https://via.placeholder.com/150" alt="Cough Syrup">
+        <h3>Cough Syrup</h3>
+        <p>₹85</p>
+      </div>
+      <div class="product">
+        <img src="https://via.placeholder.com/150" alt="Vitamin C">
+        <h3>Vitamin C</h3>
+        <p>₹120</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 HealthyLife Pharmacy | Contact: +91-9876543210</p>
+  </footer>
+</body>
+</html>
+<style>* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+header {
+  background-color: #008080;
+  color: white;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 1rem;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.hero {
+  background: #e0f7fa;
+  text-align: center;
+  padding: 3rem 1rem;
+}
+
+.hero h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.hero button {
+  padding: 0.5rem 1rem;
+  background-color: #008080;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.products {
+  padding: 2rem;
+  text-align: center;
+}
+
+.product-list {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.product {
+  background-color: white;
+  border: 1px solid #ddd;
+  padding: 1rem;
+  border-radius: 8px;
+  width: 200px;
+}
+
+.product img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+footer {
+  background-color: #008080;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+</style>
